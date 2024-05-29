@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor Numérico</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet"> <!-- Fonte decorativa -->
+</head>
+<body>
+    <nav class="navbar">
+        <a><button> Home </button></a>
+        <div class="navbar-container">
+            <a href="index.html" class="navbar-brand">
+                <img src="images.png" alt="Logo" class="navbar-logo">
+            </a>
+        </div>
+    </nav>
+    <div class="container">
+        <h1>Conversor Numérico</h1>
+        <select id="conversionType">
+            <option value="hexToDec">Hexadecimal para Decimal</option>
+            <option value="hexToBin">Hexadecimal para Binário</option>
+            <option value="decToHex">Decimal para Hexadecimal</option>
+            <option value="decToBin">Decimal para Binário</option>
+            <option value="binToDec">Binário para Decimal</option>
+            <option value="binToHex">Binário para Hexadecimal</option>
+        </select>
+        <input type="text" id="inputNumber" placeholder="Digite um número">
+        <button onclick="convert()">Converter</button>
+        <p id="result"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
